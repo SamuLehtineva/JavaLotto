@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"fi.tuni.tamk.tiko.samu_lehtineva"},{"l":"fi.tuni.tamk.tiko.samu_lehtineva.util"}]
