@@ -1,0 +1,2 @@
+# JavaLotto
+Java school project
