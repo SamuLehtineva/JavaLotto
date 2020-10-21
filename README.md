@@ -13,8 +13,9 @@ If this takes more than 120 years, the process is repeated.
 * The range of the numbers can be easily changed (default is 1-40)
 * The user can choose wether or not smaller wins (1-6 numbers right)
 
-## Screenshot
+## Screenshots
 ![image](https://user-images.githubusercontent.com/42264877/96766195-62bd2900-13e3-11eb-8dd7-0d29adda2cc6.png)
+![image](https://user-images.githubusercontent.com/42264877/96767754-9b5e0200-13e5-11eb-93b3-b0813c46562a.png)
 
 ## Credits
 The Main and util classes were made by Samu Lehtineva
