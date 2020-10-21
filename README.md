@@ -12,5 +12,8 @@ The user gives their lotto numbers and the application creates random numbers un
 * The range of the numbers can be easily changed (default is 1-40)
 * The user can choose wether or not the lotto numbers are printed during the process
 
+## Screenshot
+![image](https://user-images.githubusercontent.com/42264877/96766195-62bd2900-13e3-11eb-8dd7-0d29adda2cc6.png)
+
 ## Credits
 The Main and util classes were made by Samu Lehtineva
