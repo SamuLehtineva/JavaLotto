@@ -15,11 +15,9 @@ public class Main {
     *The amount of required numbers is defined by the "gameLength" integer.
     *The maximum value for the integers is defined by the "lottoMax" integer.
     *
-    *After receiving the numbers, it asks the user if they want to see additional info, and stores the answer in a boolean.
-    *It then generates an integer array filled with random numbers, it follows the same rules as the first array.
-    *Then it checks how many values the arrays share in common. If the result is less than "gameLength", the array is randomized and the process repeats.
-    *When the value reaches "gameLength", it tells the user how many years it took.
-    *If it took more than 120 years, the process is repeated.
+    *After receiving the numbers, it asks the user if they want to see the winning numbers, and stores the answer in a boolean.
+    *It then generates an integer array filled with random numbers and checks how many values they share in common.
+    *The process repeats until a win is reached within 120 years.
     */
     public static void main(String [] args) {
         int gameLength = 7;
@@ -46,21 +44,21 @@ public class Main {
 			    }
 		    }
 		}
-        boolean showWins = MyConsole.readConfirm("Do you want to see additional info?", "yes", "no");
+        boolean showWins = MyConsole.readConfirm("Do you want to see smaller wins?", "yes", "no");
         do {
             years = runLotto(numbers, showWins, gameLength, lottoMax);
             if (years > 120) {
-                System.out.println("You won!!! But it took more than a lifetime, lets try again.");
+                System.out.println("You won!!! But it took " + years + " years, that's more than a lifetime, lets try again.");
                 System.out.println();
 			}
 		} while (years > 120);
         System.out.println("You won!!! It only took " + years +" years");
     }
     /**
-    *This method calculates how many years it takes to win a lottery
+    *This method calculates how many years it takes to win
     *
     *@param numbers The lotto numbers given by the user.
-    *@param showWins A boolean that determines wether or not to print out small wins.
+    *@param showWins A boolean that determines wether or not to print out the winning numbers.
     *@param gameLength The amount of lotto numbers.
     *@param lottoMax the maximum value of the lotto numbers.
     *
@@ -80,8 +78,8 @@ public class Main {
                 weeks = 0;
 			}
             if (wins >= nextWin && showWins) {
-                Arrays.printIntArray(numbers, "User lotto: [", 3, ",", "]");
-                Arrays.printIntArray(winNumbers, "Random lotto: [", 3, ",", "]");
+                Arrays.printIntArray(numbers, "User lotto: [", 2, ",", "]");
+                Arrays.printIntArray(winNumbers, "Random lotto: [", 2, ",", "]");
                 do {
                     System.out.println("Got " + nextWin + " right! Took " + years + " years");
                     nextWin++;
