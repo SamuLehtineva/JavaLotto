@@ -14,7 +14,7 @@ If this takes more than 120 years, the process is repeated.
 * The user can choose wether or not smaller wins (1-6 numbers right)
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/42264877/96766195-62bd2900-13e3-11eb-8dd7-0d29adda2cc6.png)
+![image](https://user-images.githubusercontent.com/42264877/96767964-e6781500-13e5-11eb-87d1-35b0502204dc.png)
 ![image](https://user-images.githubusercontent.com/42264877/96767754-9b5e0200-13e5-11eb-93b3-b0813c46562a.png)
 
 ## Credits
