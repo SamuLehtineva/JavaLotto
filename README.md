@@ -11,7 +11,7 @@ If this takes more than 120 years, the process is repeated.
   * One by one input
 * The amount of lotto numbers can be easily changed (default is 7)
 * The range of the numbers can be easily changed (default is 1-40)
-* The user can choose wether or not smaller wins (1-6 numbers right)
+* The user can choose wether or not smaller wins are shown (1-6 numbers right)
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/42264877/96767964-e6781500-13e5-11eb-87d1-35b0502204dc.png)
